@@ -1,0 +1,29 @@
+.btn5 {
+    position: absolute;
+    top: 19rem;
+    left: 40rem;
+    border-radius: 15px;
+
+}
+
+.btn5-inner {
+    height: 120px;
+    width: 240px;
+    border: 5px solid rgb(0, 50, 58);
+    background: rgb(191, 211, 214);
+    font-weight: 1000;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 0 125px rgb(79, 79, 79);
+}
+
+.btn5-inner:hover {
+    background: rgb(182, 209, 213);
+}
+
+.btn5-inner:active {
+    position: absolute;
+    background-color: rgb(184, 216, 221);
+    box-shadow: 0 8px 125px rgb(79, 79, 79);
+    top: 5px;
+}

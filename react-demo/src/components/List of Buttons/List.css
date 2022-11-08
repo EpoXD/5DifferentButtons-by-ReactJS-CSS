@@ -1,0 +1,71 @@
+.container-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-of-buttons{
+    position: absolute;
+    top: 19rem;
+    left: 40rem;
+}
+
+.list-of-buttons-inner {
+    height: 120px;
+    width: 240px;
+    border: 5px solid rgb(174, 149, 28);
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgb(174, 149, 28);
+    color: white;
+    font-weight: 1000;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    background-color: rgb(9, 9, 9);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.list-of-buttons-inner:hover {
+    background-color: rgb(16, 16, 16);
+    border: 5px solid rgb(137, 118, 26);
+    box-shadow: 0 0 15px rgb(137, 118, 26);
+    transform: scale(1.1);    
+}
+
+.list-of-buttons-inner:active {
+    background-color: rgb(29, 29, 29);
+    border: 5px solid rgb(111, 96, 20);
+}
+
+.back-btn {
+    position: absolute;
+    top: 1.5rem;
+    left: 88.8rem;
+} 
+
+.back-btn-inner {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 5px solid rgb(174, 149, 28);
+    box-shadow: 0 0 5px rgb(174, 149, 28);
+    background: rgb(9, 9, 9);
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.back-btn-inner:hover {
+    background-color: rgb(16, 16, 16);
+    border: 5px solid rgb(137, 118, 26);
+    box-shadow: 0 0 15px rgb(137, 118, 26);
+}
+
+.back-btn-inner:active {
+    background-color: rgb(29, 29, 29);
+    border: 5px solid rgb(111, 96, 20);
+}

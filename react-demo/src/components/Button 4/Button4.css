@@ -1,0 +1,52 @@
+.btn4 {
+    position: absolute;
+    top: 19rem;
+    left: 40rem;
+    border-radius: 15px;
+}
+.btn4-inner {
+    height: 120px;
+    width: 240px;
+    transform: rotate(-30deg) skewX(25deg) translate(0, 0);
+    box-shadow: -20px 20px 10px rgb(255, 255, 255);
+    background-color: #eeeeee;
+    border: none;
+    font-weight: 1000;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: all 0.1s;
+}
+
+.btn4-inner:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    box-shadow: -50px 50px 50px rgb(255, 255, 255);
+    background-color: #e0e0e0
+}
+
+.btn4-inner:active {
+    background-color: #cccccc
+}
+.btn4-inner:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -18.9px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transform: 0.5s;
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+.btn4-inner:after {
+    content: "";
+    position: absolute;
+    top: 118px;
+    left: -9.83px;
+    height: 20px;
+    width: 100.5%;
+    background: #b1b1b1;
+    transform: 0.5s;
+    transform: rotate(0deg) skewX(-45deg);
+}
+

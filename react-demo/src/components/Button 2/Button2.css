@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+.container-button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    position: absolute;
+    top: 19rem;
+    left: 40rem;
+    border-radius: 15px;
+}
+
+.btn2-inner {
+    height: 120px;
+    width: 240px;
+    border: 7px solid rgb(195, 3, 137);
+    box-shadow: 0 0 70px rgb(195, 3, 137), inset 0 0 60px rgb(195, 3, 137);
+    text-shadow: 0 0 1.125rem rgb(195, 3, 137), 0 0 1.5rem rgb(195, 3, 137);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    color: rgb(195, 3, 137);
+    font-size: 25px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+
+}
+
+.btn2-inner:hover {
+    transform: scale(1.05);
+}
+
+.btn2-inner:active {
+    transform: scale(1.1);
+}
+
+.btn2:hover:before {
+    transform: perspective(1em) rotateX(15deg) scale(1, 0.4);
+}
+
+.btn2:active:before {
+    transform: perspective(1em) rotateX(15deg) scale(1, 0.5)
+}
+
+.btn2-inner:focus-visible {
+    height: 100px;
+    
+}
+
+.btn2:before {
+    content: "";
+    position: absolute;
+    top: 9rem;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(195, 3, 137);
+    transform: perspective(1em) rotateX(10deg) scale(1, 0.4);
+    filter: blur(20px);
+    border-radius: 50px;
+    opacity: 0.85;
+    transition: transform 0.5s ease;
+}

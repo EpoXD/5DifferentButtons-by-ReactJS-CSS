@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.board-css {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    width: 1200px;
+    height: 200px;
+    background-image: linear-gradient(130deg, #181818 0%, #e2e2e2 90%);
+    border-radius: 5px;
+    z-index: -1;
+}
+.board-css:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    background-image: linear-gradient(130deg, #181818 0%, #e2e2e2 90%);
+    filter: blur(70px);
+    z-index: -1;
+    opacity: 1;
+}
+
+.btn-1 {
+    position: absolute;
+    top: 14rem;
+    left: 13rem;
+}
+
+.btn-1-inner {
+    height: 70px;
+    width: 140px;
+    background-image: linear-gradient(130deg, #2c2c2c 0%, #e2e2e2 350%);
+    box-shadow: 0 0 35px #2c2c2c;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-1-inner:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #2c2c2c;
+}
+
+.btn-2 {
+    position: absolute;
+    top: 14rem;
+    left: 28rem;
+}
+.btn-2-inner {
+    height: 70px;
+    width: 140px;
+    background-image: linear-gradient(130deg, #565656 0%, #e2e2e2 250%);
+    box-shadow: 0 0 35px #565656;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-2-inner:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #565656;
+}
+
+.btn-3 {
+    position: absolute;
+    top: 14rem;
+    left: 43rem;
+}
+
+.btn-3-inner {
+    height: 70px;
+    width: 140px;
+    background-image: linear-gradient(130deg, #7e7e7e 0%, #e2e2e2 200%);
+    box-shadow: 0 0 35px #7e7e7e;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-3-inner:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #7e7e7e;
+}
+
+.btn-4 {
+    position: absolute;
+    top: 14rem;
+    left: 58rem;
+}
+
+.btn-4-inner {
+    height: 70px;
+    width: 140px;
+    background-image: linear-gradient(130deg, #aaaaaa 0%, #e2e2e2 150%);
+    box-shadow: 0 0 35px #aaaaaa;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-4-inner:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #aaaaaa;
+}
+
+.btn-5 {
+    position: absolute;
+    top: 14rem;
+    left: 73rem;
+}
+
+.btn-5-inner {
+    height: 70px;
+    width: 140px;
+    background-image: linear-gradient(130deg, #b9b9b9 0%, #e2e2e2 70%);
+    box-shadow: 0 0 35px #b9b9b9;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-5-inner:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #b9b9b9;
+}
+
+.animation-board {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 5px;
+    top: 10rem;
+    left: 10rem;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.animation-board:after {
+    content: "";
+    width: 1190px;
+    height: 190px;
+    border-radius: 5px;
+    background-image: linear-gradient(130deg, #181818 0%, #e2e2e2 90%);
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+
+.animation-board:before {
+    content: "";
+    width: 1200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+
+    filter: blur(100px);
+    animation: board-animation 5s infinite linear;
+}
+
+@keyframes board-animation {
+    100%{
+        transform: rotate(-360deg);
+    }
+}
