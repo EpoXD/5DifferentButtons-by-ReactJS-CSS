@@ -9,7 +9,7 @@ const List = () => {
 
         <div className="list-of-buttons">
         <button className="list-of-buttons-inner" onClick={() => navigate("/main")}>List of Buttons</button>
-          </div>
+         </div>
 
         </div>
         </>
