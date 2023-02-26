@@ -16,7 +16,7 @@ const Button5 = () => {
             </div>
             <div className="back-btn">
                 <button className="back-btn-inner" onClick={() => navigate("/main")}>Back to List</button>
-            </div>
+           </div>
         </div>
         
         </>
