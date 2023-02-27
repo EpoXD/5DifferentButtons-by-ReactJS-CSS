@@ -6,7 +6,7 @@ const Button2 = () => {
     return (
         <>
             
-        <div className="container-button2">
+        <div className="container-button2"> 
             
             <div className="btn2-container">
                 <div className="btn2-container-inner"></div>
