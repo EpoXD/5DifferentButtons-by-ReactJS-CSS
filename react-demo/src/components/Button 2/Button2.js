@@ -4,7 +4,7 @@ import "./Button2.css"
 const Button2 = () => {
     let navigate = useNavigate();
     return (
-        <>
+        <> 
             
         <div className="container-button2"> 
             
